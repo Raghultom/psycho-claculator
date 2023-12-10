@@ -1,0 +1,41 @@
+    
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  .rules-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+  }
+  
+  .rules-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .rule-item {
+    margin-bottom: 10px;
+  }
+  
+  .rule-number {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #3498db;
+    margin-right: 8px;
+  }
+  
+  .rule-text {
+    display: inline-block;
+    color: #333;
+  }
+  
